@@ -1,0 +1,27 @@
+# Secrets — never commit real Alpaca keys
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data / artifacts
+data/
+*.csv
+*.log
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Content + branding live in the PRIVATE repo (trading-bot-content), never here
+content/
+assets/
+
+# Local tooling config
+.mcp.json
+.claude/
